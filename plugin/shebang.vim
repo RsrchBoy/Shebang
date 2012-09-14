@@ -23,7 +23,7 @@ shebang = {
 	'javascript': '#!/usr/local/bin/node',
 	'lua':        '#!/usr/bin/env lua',
 	'ruby':       '#!/usr/bin/env ruby',
-	'perl':       '#!/usr/bin/perl',
+	'perl':       '#!/usr/bin/env perl',
 	'php':        '#!/usr/bin/php',
 }
 if not vim.current.buffer[0].startswith('#!'):
